@@ -55,7 +55,8 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("../img/portrait.jpg");
+      background: url("https://snag.gy/KzjSHv.jpg");
+      background-size: 300px Auto;
       border-radius: 50%;
       border: solid 3px #ffeeb0; }
   .menu .nav-item {
