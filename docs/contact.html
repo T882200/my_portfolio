@@ -7,7 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
     crossorigin="anonymous">
-
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,300' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
   <title>Contact Me</title>
 </head>
@@ -73,27 +74,44 @@
     </div>
     
     <div class="boxes">
-      <div>
-        <span class="text-secondary">Email: </span> t882200@gmail.com
-      </div>
-      <div>
-        <span class="text-secondary">Phone: </span> 055-919-4202
-      </div>
-      <div>
-        <span class="text-secondary">Address: </span> Beit Shemesh
-      </div>
-      <div>
-          <a href="Idan_Madar_206317372.docx"><span class="text-secondary">Download my CV as DOCX </span></a>
-        </div>
-    </div>
     
+    <!--modal-->
+                 <div class="wrapper">
+          <form action="https://formspree.io/t882200@gmail.com" method="POST">
+            <div class="field">
+              <input type="text" id="name" name="name" placeholder="Who are you?" autofocus/>
+              <label for="name">Name</label>
+            </div>
+            <div class="field">
+              <input type="text" id="email" name="email" placeholder="name@domain.tld" />
+              <label for="email">E-Mail</label>
+            </div>
+            <div class="field">
+              <textarea id="msg" rows="4" name="msg" placeholder="You message..."></textarea>
+              <label for="msg">Talk To Me...</label>
+            </div>
+            <input class="button" type="submit" value="Send" />
+          </form>
+        
+        </div>
+        </div>
+         
+         
+         
+         
+         
+         
+         
+         
+
+    <!--end of modal-->
     
   </main>
 
   <footer id="main-footer">
     Copyright &copy; 2019
   </footer>
-
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 
