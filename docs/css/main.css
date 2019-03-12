@@ -421,3 +421,22 @@ form input[type="submit"]:hover,
 form input[type="submit"]:focus {
   background: #372056;  
 }
+
+
+
+/*cropping image*/
+
+figure{
+   width:300px; /*container-width*/
+   overflow:hidden; /*hide bounds of image */
+   margin:0;   /*reset margin of figure tag*/
+}
+figure img{
+   display:block; /*remove inline-block spaces*/
+   width:100%; /*make image streatch*/
+   margin:-21.875% -21.875%;
+}
+
+.hide-scrollbar {
+  overflow:hidden;
+}
